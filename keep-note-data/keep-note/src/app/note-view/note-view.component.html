@@ -1,0 +1,18 @@
+
+ <div class="container">
+<app-search (searchTextChanged)="onSearchTextChanged($event)"></app-search>
+
+<div class="add-note">
+    <mat-expansion-panel id="add-fruit-panel">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                <h3>Add Fruit</h3>
+                </mat-panel-title>
+            </mat-expansion-panel-header>
+    <app-add-note (noteAdded) = "onNoteAdded($event)"></app-add-note>
+</mat-expansion-panel>
+
+<app-note class="card" *ngFor="let note of notes" [note] = "note"></app-note>
+
+</div>
+</div>

@@ -1,0 +1,29 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "sample-note",
+      "content": "This is a sample note added for testing purpose"
+    },
+    {
+      "id": 2,
+      "title": "practice-exercise: typescript edit",
+      "content": "solution development progress - exercise 1 solution ready, exercise 2 solution to be started"
+    },
+    {
+      "id": 3,
+      "title": "challenge: typescript",
+      "content": "solution developed, need to submit for evaluation"
+    },
+    {
+      "id": 4,
+      "title": "practice-exercise: typescript",
+      "content": "solution reviewed, refactoring in progress"
+    },
+    {
+      "id": 5,
+      "title": "challenge: SPA",
+      "content": "Keep Note app solution development in progress. Header design completed. Code to display notes in progress."
+    }
+  ]
+}

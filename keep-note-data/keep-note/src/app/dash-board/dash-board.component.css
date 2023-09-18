@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+.note-view{
+    flex-wrap: wrap;
+    /* width: 75%; */
+    margin-top: 30px;
+}
+/* .add-fruit {
+    width: 20%;
+    height: 100vh;
+    background-color: powderblue;
+}
+
+app-search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+} */

@@ -1,0 +1,27 @@
+<!-- <div class="border">
+
+    <div class="card-content">
+        <h4>{{note.title}}</h4>
+        <p>{{note.content}}</p>
+    </div> -->
+
+<!-- </div> -->
+<a  routerLink="../note-detail/{{note?.id}}">
+<mat-card  class="card-content" mat-ripple [matRippleCentered]="true" (mouseover)="collapsed=false" (mouseout)="collapsed=true">
+ 
+  <mat-card-header>
+    <mat-card-title>{{note.title}}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <p>{{note.content}}</p>
+    <div >
+    <!-- <div *ngIf="!collapsed"> -->
+    <mat-icon color="primary">bookmark</mat-icon>
+    <mat-icon color="primary">edit</mat-icon>
+    <mat-icon color="primary">delete</mat-icon>
+    <mat-icon color="accent">notifications</mat-icon>
+</div>
+  </mat-card-content>
+  
+</mat-card>
+</a>

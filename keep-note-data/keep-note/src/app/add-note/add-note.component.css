@@ -1,0 +1,38 @@
+.add-box{
+  clear: both;
+    /* text-align: center; */
+   
+   
+}
+#circle{
+ 
+  position: absolute;
+  bottom: 0px;
+  right: 5%;
+}
+.border{
+    margin-top: 40px;
+    margin-left:350px
+   
+}
+.line-space{
+  margin: 2px;
+}
+.tongle{
+  margin-top: 100px;
+  float:right;
+  margin-left: 0px;
+  
+  /* display: right;
+position: relative;
+  justify-content: right; */
+}
+/* mat-icon{
+  display: right;
+position: relative;
+  justify-content: right;
+} */
+/* #circle{
+  border-radius:100% ; */
+  /* background-color:rgb(46, 94, 215); */
+/* } */

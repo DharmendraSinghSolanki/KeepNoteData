@@ -1,0 +1,30 @@
+<!-- <div class ="tongle">
+    <button color="primary"  id="circle" mat-fab aria-label="Example icon button with a delete icon"  (click)="show()">
+<mat-icon color="blue">add</mat-icon>
+</button>
+
+<div class="border" >
+<div  class="add-box" *ngIf="flag"> -->
+    <p>Add New Note</p>
+ 
+    <mat-form-field class="input-field" appearance="fill">
+        <mat-label>Enter id</mat-label>
+    <input matInput class="line-space"   type="text" placeholder="note id" name="noteid" 
+    [(ngModel)]="note.id">
+</mat-form-field>
+    <mat-form-field class="input-field" appearance="fill">
+        <mat-label>Enter title</mat-label>
+    <input matInput class="line-space"  type="text" placeholder="note title" name="notetitle" 
+    [(ngModel)]="note.title">
+</mat-form-field>
+    <br>
+    <mat-form-field class="input-field" appearance="fill">
+        <mat-label>Enter content</mat-label>
+    <textarea matInput class="line-space"  placeholder="note Content" name="noteContent" id="" cols="44" rows="6" [(ngModel)]="note.content"></textarea>
+</mat-form-field>
+    <br>
+    <button  (click)="addNote()">Save</button>
+
+<!-- </div> -->
+<!-- </div>
+</div> -->

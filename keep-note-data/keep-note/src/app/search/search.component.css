@@ -1,0 +1,13 @@
+.search-box{
+  display: block;
+  margin:0 auto;
+  /* display: inline-block; */
+width: 350px;
+
+}
+#serch{
+  /* margin:0 auto;
+  display: inline-block; */
+  /* text-align: center;
+  margin-top: 0px; */
+}

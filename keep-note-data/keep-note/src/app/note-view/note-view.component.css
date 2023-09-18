@@ -1,0 +1,15 @@
+.card{
+    /* display: inline-flex; */
+   float: left;
+   height: auto;
+}
+.container {
+    /* display: flex;
+    flex-direction: column; */
+    /* padding-left: 20px; */
+    /* justify-content: space-between; */
+}
+#add-fruit-panel {
+    margin: auto;
+    width: 400px;
+}

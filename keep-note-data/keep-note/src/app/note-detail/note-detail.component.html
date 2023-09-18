@@ -1,0 +1,40 @@
+<mat-card mat-ripple [matRippleCentered]="true" class="card-content">
+   
+    <mat-card-content>
+        <h4>{{note.title}}</h4>
+        {{note.content}} 
+        <form id="edit-form">
+            <mat-form-field class="input-field" appearance="fill">
+                <mat-label>title</mat-label>
+                <input matInput [(ngModel)]="note.title" name="title" type="text" >
+            </mat-form-field>
+            <mat-form-field class="input-field" appearance="fill">
+                <mat-label>content</mat-label>
+                <input matInput [(ngModel)]="note.content" name="content" type="text" >
+            </mat-form-field>
+        </form>
+    </mat-card-content>
+    <mat-card-actions>
+        <button color="accent" mat-icon-button (click)="editNote()">
+            <mat-icon>edit</mat-icon>
+        </button>
+        <button color="accent" mat-icon-button (click)="delete()">
+            <mat-icon>delete</mat-icon>
+        </button>
+    </mat-card-actions>
+    <router-outlet></router-outlet>
+
+</mat-card>
+
+<!-- <div id="image-viewer">
+    <mat-card  *ngIf = "note" >
+        <a routerLink="{{note.id}}">
+            <h4>{{note.title}}</h4>
+            <p>{{note.content}}</p>
+        <mat-card-actions>
+            <button mat-icon-button (click)="delete()"><mat-icon>delete</mat-icon></button>
+        </mat-card-actions>
+    </a>
+    </mat-card>
+
+</div> -->
